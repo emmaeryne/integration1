@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pidev3a32.controllers.AjouterCoursParticipant">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="606.0" layoutY="1.0">
+         <image>
+            <Image url="@../../../../Users/malek/Downloads/interface-planning.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="211.0" layoutY="37.0" prefHeight="114.0" prefWidth="332.0" text="Cours_ Participants" textFill="#ae7830">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="151.0" prefHeight="54.0" prefWidth="210.0" text="Selectionner  un cours:" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="177.0" layoutY="238.0" prefHeight="54.0" prefWidth="184.0" />
+      <ComboBox fx:id="comboboxcours" layoutX="397.0" layoutY="211.0" prefHeight="26.0" prefWidth="171.0" />
+      <ComboBox fx:id="comboboxparticpant" layoutX="401.0" layoutY="317.0" prefHeight="26.0" prefWidth="171.0" />
+      <Label layoutX="198.0" layoutY="251.0" prefHeight="54.0" prefWidth="263.0" text="Selectiooner  un Participant:" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonajouter" layoutX="177.0" layoutY="368.0" mnemonicParsing="false" onAction="#onAjouterButtonClicked" prefHeight="26.0" prefWidth="79.0" style="-fx-background-color: orange;" text="Ajouter" />
+      <Label layoutX="58.0" layoutY="67.0" prefHeight="54.0" prefWidth="210.0" text="Gestion" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="109.0" prefHeight="54.0" prefWidth="210.0" text="Planning" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="detaillabel" layoutX="58.0" layoutY="177.0" prefHeight="54.0" prefWidth="210.0" text="Detail" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="courslabel" layoutX="58.0" layoutY="224.0" prefHeight="54.0" prefWidth="210.0" text="Cours" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="planninglabel" layoutX="58.0" layoutY="262.0" prefHeight="54.0" prefWidth="210.0" text="Planning" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="participantlabel" layoutX="58.0" layoutY="303.0" prefHeight="54.0" prefWidth="210.0" text="Participant" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="294.0" layoutY="-6.0" prefHeight="61.0" prefWidth="227.0" text="HIVE" textFill="#dcd8d0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

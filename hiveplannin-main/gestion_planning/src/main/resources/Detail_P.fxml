@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pidev3a32.controllers.Detail_P">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../Users/malek/Downloads/interface-planning.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="202.0" layoutY="113.0" prefHeight="227.0" prefWidth="347.0" />
+      <Label layoutX="60.0" layoutY="187.0" prefHeight="25.0" prefWidth="66.0" text="Detail" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="103.0" prefHeight="25.0" prefWidth="66.0" text="Gestion" textFill="#998250">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="243.0" layoutY="184.0" prefHeight="32.0" prefWidth="231.0" text="Type_Activite : " textFill="#c4860b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="tyepeactlabel" layoutX="406.0" layoutY="190.0" prefHeight="18.0" prefWidth="154.0" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="210.0" prefHeight="18.0" prefWidth="84.0" />
+      <Label layoutX="243.0" layoutY="238.0" prefHeight="32.0" prefWidth="231.0" text="la Date : " textFill="#c4860b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="datelabel" layoutX="405.0" layoutY="244.0" prefHeight="18.0" prefWidth="94.0" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="134.0" prefHeight="35.0" prefWidth="185.0" text="Detail">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="243.0" layoutY="285.0" text="Cours:" textFill="#c4860b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="courslabel" layoutX="401.0" layoutY="301.0" prefHeight="20.0" prefWidth="78.0" text="-">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="modifierbuttonplanning" layoutX="422.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleModifierButton" style="-fx-background-color: orange;" text="Modifier" />
+      <Button fx:id="suppplanningbutton" layoutX="519.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleSuppressionButton" style="-fx-background-color: orange;" text="Supprimer" />
+      <Label layoutX="60.0" layoutY="134.0" prefHeight="35.0" prefWidth="84.0" text="Planning" textFill="#998250">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="241.0" prefHeight="25.0" prefWidth="66.0" text="Planning" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="285.0" prefHeight="25.0" prefWidth="66.0" text="Cours" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="324.0" prefHeight="35.0" prefWidth="84.0" text="Participant" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="8.0" prefHeight="32.0" prefWidth="71.0" text="HIVE" textFill="#ccc8bc">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="49.0" text="Consulter" textFill="#ae7830">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

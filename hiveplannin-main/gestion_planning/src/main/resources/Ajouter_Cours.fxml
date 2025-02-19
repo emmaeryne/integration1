@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pidev3a32.controllers.Ajouter_Cours">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../Users/malek/Downloads/interface-planning.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="deatillabel" layoutX="61.0" layoutY="201.0" onMouseClicked="#handleLabeldetailClick" prefHeight="22.0" prefWidth="80.0" text="Detail" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelplanning" layoutX="61.0" layoutY="240.0" onMouseClicked="#handleLabelPlanningClick" prefHeight="22.0" prefWidth="80.0" text="Planning" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelcours" layoutX="61.0" layoutY="279.0" onMouseClicked="#handleLabelCoursClick" prefHeight="22.0" prefWidth="80.0" text="Cours" textFill="#6c5e2d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelparticipant" layoutX="61.0" layoutY="313.0" onMouseClicked="#handleLabelParticipantClick" prefHeight="22.0" prefWidth="80.0" text="Participant" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="169.0" prefHeight="35.0" prefWidth="144.0" text="Nom_Cours:" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomcourstextfield" layoutX="336.0" layoutY="174.0" prefHeight="26.0" prefWidth="174.0" />
+      <TextField fx:id="dureecourstextfield" layoutX="336.0" layoutY="238.0" prefHeight="26.0" prefWidth="174.0" />
+      <TextField fx:id="etatcourstextfield" layoutX="336.0" layoutY="301.0" prefHeight="26.0" prefWidth="174.0" />
+      <Button fx:id="buttonajoutercours" layoutX="490.0" layoutY="359.0" mnemonicParsing="false" onAction="#addcours" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: orange;" text="Ajouter" />
+      <Label layoutX="61.0" layoutY="92.0" prefHeight="45.0" prefWidth="71.0" text="Gestion" textFill="#998250">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="233.0" prefHeight="27.0" prefWidth="113.0" text="Durée:" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="299.0" prefHeight="27.0" prefWidth="113.0" text="Etat:" textFill="#7e5e1d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="132.0" prefHeight="54.0" prefWidth="80.0" text="Planning" textFill="#998250">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="77.0" prefHeight="54.0" prefWidth="250.0" text="Ajouter Cours" textFill="#ae8730">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" prefHeight="45.0" prefWidth="71.0" text="Hive" textFill="#d1cfca">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="103.0" />
+   </children>
+</AnchorPane>

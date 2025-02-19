@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pidev3a32.controllers.Liste_Participant">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../Users/malek/Downloads/interface-planning.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="289.0" layoutY="65.0" prefHeight="47.0" prefWidth="222.0" text="Liste_Participant" textFill="#cc9021">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="planninglabel" layoutX="64.0" layoutY="174.0" prefHeight="20.0" prefWidth="70.0" text="Planning" textAlignment="CENTER" textFill="#845f09">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="courslabel" layoutX="60.0" layoutY="269.0" prefHeight="20.0" prefWidth="62.0" text="Cours" textFill="#845f09">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="participantlabel" layoutX="60.0" layoutY="225.0" prefHeight="20.0" prefWidth="78.0" text="Participants" textFill="#845f09">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="89.0" prefHeight="27.0" prefWidth="70.0" text="Gestion" textFill="#735b13">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="121.0" prefHeight="27.0" prefWidth="78.0" text="Planning" textFill="#6e520a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="14.0" prefHeight="18.0" prefWidth="43.0" text="HIVE" textFill="#d4cbcb">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="detaillabel" layoutX="60.0" layoutY="311.0" prefHeight="47.0" prefWidth="124.0" text="Detail" textAlignment="CENTER" textFill="#845f09">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="listpart" layoutX="154.0" layoutY="158.0" prefHeight="200.0" prefWidth="385.0">
+        <columns>
+          <TableColumn fx:id="nomp" prefWidth="75.0" text="nom" />
+          <TableColumn fx:id="prenomp" prefWidth="75.0" text="prenom" />
+            <TableColumn fx:id="agep" prefWidth="75.0" text="age" />
+            <TableColumn fx:id="adresep" prefWidth="75.0" text="adresse" />
+            <TableColumn fx:id="telp" prefWidth="75.0" text="tel" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

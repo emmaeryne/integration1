@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.pidev3a32.controllers.CoursC"> <!-- Assurez-vous que le nom du contrôleur est correct -->
+    <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../Users/malek/Downloads/interface-planning.png" />
+         </image>
+      </ImageView>
+        <Label layoutX="61.0" layoutY="190.0" text="Detail" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+        <Label layoutX="388.0" layoutY="38.0" text="Cours" textFill="#eae6e6" />
+        <Label layoutX="459.0" layoutY="38.0" text="Participant" textFill="#eae6e6" />
+      <TableView fx:id="tablec" layoutX="163.0" layoutY="137.0" onMouseClicked="#show" prefHeight="226.0" prefWidth="432.0">
+        <columns>
+          <TableColumn fx:id="courc" prefWidth="143.199951171875" text="Nom_cours" />
+          <TableColumn fx:id="dureec" prefWidth="136.79998779296875" text="Duree_cours" />
+            <TableColumn fx:id="etatc" prefWidth="68.0" text="Etat_cours" />
+        </columns>
+      </TableView>
+      <Label fx:id="planninglabel" layoutX="59.0" layoutY="232.0" text="Planning" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="282.0" text="Cours" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="participantlabel" layoutX="62.0" layoutY="330.0" text="Participant" textFill="#6e5c2d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="56.0" text="Les Cours Disponibles:" textAlignment="CENTER" textFill="#ae7830">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="96.0" text="Gestion" textFill="#998250">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="131.0" text="Planning" textFill="#998250">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="287.0" layoutY="7.0" prefHeight="35.0" prefWidth="57.0" text="Hive" textFill="#d7d0bf">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
